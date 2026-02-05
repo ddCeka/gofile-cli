@@ -11,7 +11,7 @@ doc = false
 
 [dependencies]
 anyhow = "1.0.100"
-base16ct = { version = "0.3.0", features = [ "alloc" ] }
+base16ct = { version = "1.0.0", features = [ "alloc" ] }
 clap = { version = "4.5.53", features = [ "derive" ] }
 clap_complete = "4.5.61"
 etcetera = "0.11.0"
