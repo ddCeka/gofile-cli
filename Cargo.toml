@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = [
+    "gofile",
+    "gofile-cli",
+]
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = "fat"
+strip = "symbols"
+panic = "abort"
