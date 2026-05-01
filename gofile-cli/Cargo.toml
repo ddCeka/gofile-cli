@@ -12,8 +12,8 @@ doc = false
 [dependencies]
 anyhow = "1.0.102"
 base16ct = { version = "1.0.0", features = [ "alloc" ] }
-clap = { version = "4.6.0", features = [ "derive" ] }
-clap_complete = "4.6.0"
+clap = { version = "4.6.1", features = [ "derive" ] }
+clap_complete = "4.6.3"
 etcetera = "0.11.0"
 gofile = { version = "1.0.0", path = "../gofile", default-features = false }
 indicatif = "0.18.4"
@@ -23,10 +23,10 @@ opener = "0.8.3"
 pin-project-lite = "0.2.17"
 reqwest = { version = "0.12.25", default-features = false }
 serde = { version = "1.0.228", features = ["derive"] }
-shadow-rs = "1.7.1"
-tokio = { version = "1.50.0", features = [ "rt-multi-thread", "fs" ] }
+shadow-rs = "2.0.0"
+tokio = { version = "1.52.1", features = [ "rt-multi-thread", "fs" ] }
 tokio-util = "0.7.17"
-toml = "1.1.1"
+toml = "1.1.2"
 url = "2.5.7"
 
 [features]
@@ -35,4 +35,4 @@ native-tls = [ "gofile/native-tls" ]
 rustls-tls = [ "gofile/rustls-tls" ]
 
 [build-dependencies]
-shadow-rs = "1.7.1"
+shadow-rs = "2.0.0"
