@@ -11,7 +11,7 @@ thiserror = "2.0.17"
 time = { version = "0.3.44", features = [ "serde" ] }
 
 [dev-dependencies]
-tokio = { version = "1.50.0", features = [ "macros" ] }
+tokio = { version = "1.52.1", features = [ "macros" ] }
 
 [features]
 default = [ "rustls-tls" ]
